@@ -1,0 +1,284 @@
+html{
+    scroll-behavior:smooth;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: aliceblue;
+}
+#heading{
+    color:#19182e;
+    text-align: center;
+    background-color:rgb(142, 202, 254);
+    padding: 30px;
+    margin: 0;
+    font-size: 25px;
+    text-shadow:  4px 4px 4px whitesmoke;
+}
+nav{
+    color:white;
+    background-color:#19182e;
+    /* display: flex; */
+}
+#Navigation{
+    display: flex;
+    gap: 30px;
+    list-style-type:none;
+    padding: 20px;
+    justify-content: space-around;
+    margin: 5px;
+    font-size: 16px;
+}
+#home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    background-image: url(./images/Home.jpg);
+    padding: 100px 50px 100px 50px;
+}
+#left-1{
+    font-size: 40px;
+    color: white;
+}
+#left-2{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+#right iframe{
+    border-radius: 10px;
+}
+#about{
+    display: flex;
+    gap: 30px;
+    padding: 30px 60px 60px 60px;
+    justify-content: space-between;
+}
+#imges img{
+    height: 190px;
+    width: auto;
+    border-radius: 25px;
+    margin: 25px 25px 0 25px;
+}
+#imges{
+    display: flex;
+}
+#content{
+    width:500px;
+    text-align: justify;
+}
+#cont{
+    font-size: 108x;
+    line-height: 30px;
+}
+#increase{
+    font-size: 28px;
+}
+.names{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    /* padding-left: 50px; */
+    margin-left: 20px;
+    margin-top: 0;
+    font-size: 15px;
+}
+.color{
+    color: grey;
+}
+.head{
+    text-align: center;
+    margin-top: 40px;
+}
+#Membership{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    background-image: url(./images/Membership.jpg);
+}
+table,tr,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+table{
+    width: 500px;
+    text-align: center;
+}
+form{
+    /* margin-top: ; */
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding:20px;
+}
+form input{
+    width: 98%;
+    padding: 7px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom:20px;
+    background-color: aliceblue;
+}
+form h3{
+    text-align: center;
+    font-size: 20px;
+    color:#19182e;
+}
+form textarea{
+    width: 98%;
+    padding: 7px;
+    font-size:16px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.tablehead{
+    background-color: #19182e;
+    color: white;
+}
+form button{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius:10px;
+}
+#pad{
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#Navigation li:hover{
+    border-bottom: 2px solid white;
+}
+#second{
+    background-color:lightblue;
+    margin: 0;
+    padding: 30px 0 20px 0;
+}
+/* #Private{
+    display: flex;
+} */
+.Eventimg{
+    height: 305px;
+    width: 548px;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+.Private{
+    padding: 20px;
+    background-color: rgb(211, 231, 249);
+    height: fit-content;
+    border-radius: 30px;
+    text-align: center;
+}
+.Private input{
+    margin: 100px;
+}
+.event{
+    /* display: flex; */
+    display: inline;
+    font-size: 50px;
+    margin-top: 0;
+}
+.fit{
+    /* display: flex; */
+    /* display: inline; */
+    font-size: 23px;
+    width: 800px;
+    /* padding: 20px; */
+}
+#info{
+    width: fit-content;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 25px;
+    background-color:rgb(255, 255, 255);
+    margin: 20px;
+}
+#info input,textarea{
+    margin-bottom: 10px;
+    padding: 5px;
+    margin-left:10px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    border-bottom:2px solid black;
+}
+#info button{
+    width: 100%;
+    padding: 5px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
+#Contact{
+    display: flex;
+    justify-content: center;
+    background-image: url(./images/ContactUs.jpg);
+    padding: 60px;
+}
+.UpcomingEvents{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.UpcomingEvents div{
+    width: fit-content;
+}
+#info textarea{
+    margin: 10px;
+    display: block;
+}
+#member h2{
+    font-size: 30px;
+    margin-top: 20px;
+}
+#member{
+    margin-left:0;
+}
+.edit{
+    font-size: 23px;
+}
+#Group input{
+    margin: 100px;
+}
+#fourth{
+    background-color: #19182e;
+    color: white;
+    margin: 0;
+    padding: 20px  ;
+}
+footer {
+    /* background-color:; */
+    color:black;
+    padding: 10px;
+    text-align: center;
+}
+footer div {
+    margin-bottom: 10px;
+}
+footer a {
+    color:black;
+    margin: 0 10px;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.content-upcoming{
+    font-size: 16px;
+}
+.content-upcoming h2
+{
+  font-size: 20px;
+}
+.content-upcoming p
+{
+  width: 500px;
+}
+
+

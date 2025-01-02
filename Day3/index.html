@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Day3</title>
+        <h1>Employee Task Tracker Form</h1>
+        <style>
+            body{
+                background-color: rgb(171, 221, 235);
+            }
+            th,td{
+                background-color: azure;
+                border:2px solid black;
+                padding:10px;
+            }
+            table{
+                width : 60%;
+                margin-top: 10px;
+                margin:0 auto;
+                border-collapse: collapse;
+                text-align: center;
+            }
+            h1{
+                text-align: center;
+                margin: 20px;
+            }
+            form
+            {
+                padding:10px;
+                border:2px solid black;
+                width: fit-content;
+                margin:0 auto;
+                background-color:azure;
+            }
+            label{
+                margin-right: 10px;
+                line-height:  10px;
+            }
+            button{
+                padding: 5px;
+                color: white;
+                background-color: black;
+                margin-left: 40%;
+            }
+            input{
+                padding: 2px;
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <form>
+                <label for = "text">Employee Name:</label>
+                <input type="text" id="text" name = "text" placeholder="Enter text" required/><br/><br>
+                <label for = "text">Task Title:</label>
+                <input type="text" id="text" name = "text" placeholder="Enter text" required/><br/><br>
+                <label for = "message">Task Description:</label>
+                <textarea id = "message" name="message" rows="4" cols="50" placeholder="Enter your message"></textarea><br/><br>
+                <label for = "date">Date:</label>
+                <input type = "date" id="date" name="date" required/><br/>
+                <button type="submit">Assign Task</button>
+            </form>
+        </section><br>
+        <section>
+            <table id="EmployeeTasks" style="border:2px solid black;">
+                    <tr>
+                        <th rowspan="2">Employee Name</th>
+                        <th colspan="2">Task Details</th>
+                        <th rowspan="2">Due Date</th>
+                    </tr>
+                    <tr>
+                        <th>Task Title</th>
+                        <th>Task Description</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">Subasri A</td>
+                        <td>Testing</td>
+                        <td>Detecting errors</td>
+                        <td>2024-09-03</td>
+                    </tr>
+                    <tr>
+                        <td>Team Meeting</td>
+                        <td>Organize the weekly team meeting</td>
+                        <td>2024-10-13</td>
+                    </tr>
+                    <tr>
+                        <td>Feedback</td>
+                        <td>Collecting feedback from clients</td>
+                        <td>2024-11-24</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">Jananisri A</td>
+                        <td>Training</td>
+                        <td>Prepare and deliver training sessions for new employees.</td>
+                        <td>2024-02-18</td>
+                    </tr>
+                    <tr>
+                        <td>Code Review</td>
+                        <td>Review and optimize the codebase for efficiency.</td>
+                        <td>2024-04-06</td>
+                    </tr>
+                    <tr>
+                        <td>Bug Fixing</td>
+                        <td>Identify and resolve issues in the production environment.</td>
+                        <td>2024-08-26</td>
+                    </tr>
+            </table>
+        </section>
+    </body>
+</html>
