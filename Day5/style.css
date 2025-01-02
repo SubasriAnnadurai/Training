@@ -12,7 +12,7 @@ body{
     background-color:rgb(142, 202, 254);
     padding: 30px;
     margin: 0;
-    font-size: 25px;
+    font-size: 30px;
     text-shadow:  4px 4px 4px whitesmoke;
 }
 nav{
@@ -27,7 +27,7 @@ nav{
     padding: 20px;
     justify-content: space-around;
     margin: 5px;
-    font-size: 16px;
+    font-size: 20px;
 }
 #home{
     display: flex;
@@ -68,7 +68,7 @@ nav{
     text-align: justify;
 }
 #cont{
-    font-size: 108x;
+    font-size: 20px;
     line-height: 30px;
 }
 #increase{
@@ -177,12 +177,6 @@ a{
 .Private input{
     margin: 100px;
 }
-.event{
-    /* display: flex; */
-    display: inline;
-    font-size: 50px;
-    margin-top: 0;
-}
 .fit{
     /* display: flex; */
     /* display: inline; */
@@ -225,6 +219,7 @@ a{
     padding: 10px;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin: 0;
 }
 .UpcomingEvents div{
     width: fit-content;
@@ -280,5 +275,18 @@ footer a:hover {
 {
   width: 500px;
 }
-
+#access{
+    margin-left: 50px;
+}
+#member{
+    margin-right:50px ;
+}
+#idd{
+    margin-bottom :20px;
+}
+.event{
+    display: inline;
+    margin-top: 0;
+}
+    
 
