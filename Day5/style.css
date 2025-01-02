@@ -17,8 +17,7 @@ body{
 }
 nav{
     color:white;
-    background-color:#19182e;
-    /* display: flex; */
+    background-color:#3d405b;
 }
 #Navigation{
     display: flex;
@@ -78,7 +77,6 @@ nav{
     display: flex;
     justify-content: space-between;
     width: 350px;
-    /* padding-left: 50px; */
     margin-left: 20px;
     margin-top: 0;
     font-size: 15px;
@@ -106,7 +104,6 @@ table{
     text-align: center;
 }
 form{
-    /* margin-top: ; */
     width: 400px;
     border: 2px solid black;
     border-radius: 10px;
@@ -158,9 +155,6 @@ a{
     margin: 0;
     padding: 30px 0 20px 0;
 }
-/* #Private{
-    display: flex;
-} */
 .Eventimg{
     height: 305px;
     width: 548px;
@@ -178,11 +172,8 @@ a{
     margin: 100px;
 }
 .fit{
-    /* display: flex; */
-    /* display: inline; */
     font-size: 23px;
     width: 800px;
-    /* padding: 20px; */
 }
 #info{
     width: fit-content;
@@ -248,7 +239,6 @@ a{
     padding: 20px  ;
 }
 footer {
-    /* background-color:; */
     color:black;
     padding: 10px;
     text-align: center;
@@ -288,5 +278,8 @@ footer a:hover {
     display: inline;
     margin-top: 0;
 }
-    
+.golfimg{
+    width: 48px;
+    height: 48px;
+}    
 
