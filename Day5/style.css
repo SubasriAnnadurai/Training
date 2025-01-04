@@ -17,12 +17,10 @@ a{
     position: sticky;
     top: 0px;
     z-index: 1;
-    
 }
 .nav-container{
     display: flex;
     justify-content: space-between;
-    align-items: center
 }
 .links{
     display: flex;
@@ -36,6 +34,7 @@ a{
 .links-div{
     display: flex;
     list-style: none;
+    align-items: center;
 }
 .container{
     margin-left: 91px;
