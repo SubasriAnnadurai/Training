@@ -12,7 +12,7 @@ body{
     background-color:rgb(142, 202, 254);
     padding: 30px;
     margin: 0;
-    font-size: 30px;
+    font-size: 30px;    
     text-shadow:  4px 4px 4px whitesmoke;
 }
 nav{
@@ -31,7 +31,7 @@ nav{
 #home{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; 
+    justify-content: space-between;
     background-image: url(./images/Home.jpg);
     padding: 100px 50px 100px 50px;
 }
@@ -282,4 +282,3 @@ footer a:hover {
     width: 48px;
     height: 48px;
 }    
-
