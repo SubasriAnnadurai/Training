@@ -10,6 +10,20 @@ a{
     position: relative;
 }
 
+.nav{
+    background-color: #3D405B;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
 .links{
     display: flex;
     flex-direction: row;
@@ -27,23 +41,6 @@ a{
     margin-left: 91px;
     margin-right: 91px;
 }
-
-.nav-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center
-}
-.nav{
-    background-color: #3D405B;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    position: sticky;
-    top: 0px;
-    z-index: 1;
-    
-}
-
-
 .logo{
     width: 48px;
     height: 48px;
@@ -111,6 +108,21 @@ a{
     top: auto;
     bottom: -1px;
 }
+
+.youtube{
+    border-radius: 20px;
+}
+.btn-section{
+    display: flex;
+    gap: 10px;
+    color: white;
+    align-items: center;
+}
+.section-2{
+    position: absolute;
+    width: 100%;
+    margin-top: 100px;
+}
 .btn{
     background-color: #f2cc8f;
     color: white;
@@ -130,20 +142,6 @@ a{
     height: 100%;
     width: 100%;
     opacity: 0.5;
-}
-.youtube{
-    border-radius: 20px;
-}
-.btn-section{
-    display: flex;
-    gap: 10px;
-    color: white;
-    align-items: center;
-}
-.section-2{
-    position: absolute;
-    width: 100%;
-    margin-top: 100px;
 }
 .hd-1{
     font-size: 2rem;
@@ -211,7 +209,19 @@ p{
     font-size: 18px;
     margin-left: -21px;    
 }
-
+.input-fld{
+    outline: none;
+    border: none;
+}
+.btn-2{
+    font-size: 18px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.section-4{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 table{
     caption-side: bottom;
     border-collapse: collapse;
@@ -573,18 +583,4 @@ table tbody tr:nth-child(even) {
     position: absolute;
     left: 0;
     margin-top: -93px;
-}
-
-.input-fld{
-    outline: none;
-    border: none;
-}
-.btn-2{
-    font-size: 18px;
-    padding-left: 18px;
-    padding-right: 18px;
-}
-.section-4{
-    margin-top: 100px;
-    margin-bottom: 100px;
 }
