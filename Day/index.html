@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Golf Club</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
    
@@ -19,8 +20,8 @@
                         </span>
                     </a>
                 </div>
-                <div class="menu">
-                    <ul class="menu-bar">
+                <div class="links">
+                    <ul class="links-div">
                         <li class="nav-item"><a href="#home">Home</a></li>
                         <li class="nav-item"><a href="#about">About</a></li>
                         <li class="nav-item"><a href="#member" >Memebership</a></li>
@@ -39,7 +40,7 @@
             <section id="home" class="section-1">
 
                 <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 350"><path fill="#3D405B" fill-opacity="1" d="M0,224L34.3,192C68.6,160,137,96,206,90.7C274.3,85,343,139,411,144C480,149,549,107,617,122.7C685.7,139,754,213,823,240C891.4,267,960,245,1029,224C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
-                <div class="overlay"></div>
+                <div class="layer"></div>
                 <div class="container">
                     
                         <div class="inner-section"> 
@@ -315,10 +316,10 @@
                 <div class="footer-container container">
                     <div class="left">
                         <div class="log">
-                            <a class="logo-b">
+                            <a class="brand-log">
                                 <img src="./img/logo.png" class="ft-logo">
-                                <span class="title ft-name">Tiya
-                                    <small class="title-sm">GOLF CLUB</small>
+                                <span class="br-name ft-name">Tiya
+                                    <small class="br-name-sm">GOLF CLUB</small>
                                 </span>
                             </a>
                         </div>
@@ -337,52 +338,25 @@
                             </div>
 
                             <div class="ft-1">
-                                <p>Copyright © 2025 Tiya Golf Club</p>
+                                <p>Copyright © 2048 Tiya Golf Club</p>
                             </div>
                         </div>
                         
+                    </div>
+                    <div class="right-1">
+                        <div class="join-us-container">
+                            <ul class="social-list">
+                                <li><div class="social-icon"><i class="fa-brands fa-instagram"></i></div></li>
+                                <li><div class="social-icon"><i class="fa-brands fa-twitter"></i></div></li>
+                                <li><div class="social-icon"><i class="fa-brands fa-whatsapp"></i></div></li>
+                            </ul>
+                        </div>
+                        <p>Design: TemplateMo</p>
                     </div>
                 </div>
                 <svg class="svg-footer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#81B29A" fill-opacity="1" d="M0,224L34.3,192C68.6,160,137,96,206,90.7C274.3,85,343,139,411,144C480,149,549,107,617,122.7C685.7,139,754,213,823,240C891.4,267,960,245,1029,224C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
             </footer>
     </div>
-    <div id="model-overly" class="model-overly hide"></div>
-
-        <div id="model" class="model hide">
-            <div class="model-header">
-                <h1>Member Login</h1>
-                <i id="ic-md-cl" class="fa-solid fa-xmark md-cl"></i> 
-            </div>
-            <div class="model-body">
-                <from>
-                    <div class="model-field">
-                        <label for="me-no" class="model-label">Membership No.</label>
-                        <input id="me-no" class="input-fld form-input cont-input mod-input" type="text" placeholder="Membership no.">
-                    </div>
-                    <div class="model-field">
-                        <label for="pass" class="model-label">Password</label>
-                        <input id="pass" class="input-fld form-input cont-input mod-input" type="password" placeholder="Password">
-                    </div>
-                    <div class="model-field">
-                        
-                        <input id="remember-me" class="mod-input mod-ck" type="checkbox" placeholder="Full Name">
-                        <label for="remember-me" class="model-label">Remember me</label>
-                    </div>
-                    <div class="model-field form-footer">
-                        
-                        <button type="submit" class="btn card-btn md-btn">Login</button>
-                        <a class="forgot-md-link" href="#">Forgotten password?</a>
-                        <div class="ft-bottom">
-                            <p>Any Questions ? <span><a class="link-color" href="#">010-020-0340</a></span></p>
-                        </div>
-                    </div>
-
-                </from>
-            </div>
-
-            <svg class="model-svg"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#3D405B" fill-opacity="1" d="M0,224L34.3,192C68.6,160,137,96,206,90.7C274.3,85,343,139,411,144C480,149,549,107,617,122.7C685.7,139,754,213,823,240C891.4,267,960,245,1029,224C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
-            
-        </div>
     
 </body>
 </html>

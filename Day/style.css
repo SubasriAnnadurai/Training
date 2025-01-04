@@ -9,6 +9,25 @@ a{
 .body{
     position: relative;
 }
+
+.links{
+    display: flex;
+    flex-direction: row;
+}
+.nav-item{
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+.links-div{
+    display: flex;
+    list-style: none;
+}
+.container{
+    margin-left: 91px;
+    margin-right: 91px;
+}
+
 .nav-container{
     display: flex;
     justify-content: space-between;
@@ -23,23 +42,8 @@ a{
     z-index: 1;
     
 }
-.menu{
-    display: flex;
-    flex-direction: row;
-}
-.nav-item{
-    margin: 10px;
-    color: white;
-    text-decoration: none;
-}
-.menu-bar{
-    display: flex;
-    list-style: none;
-}
-.container{
-    margin-left: 91px;
-    margin-right: 91px;
-}
+
+
 .logo{
     width: 48px;
     height: 48px;
@@ -119,7 +123,7 @@ a{
     font-size: 40px;
     color: white;
 }
-.overlay{
+.layer{
     top: 0px;
     background-color: #3D405B;
     position: absolute;
@@ -207,19 +211,7 @@ p{
     font-size: 18px;
     margin-left: -21px;    
 }
-.input-fld{
-    outline: none;
-    border: none;
-}
-.btn-2{
-    font-size: 18px;
-    padding-left: 18px;
-    padding-right: 18px;
-}
-.section-4{
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
+
 table{
     caption-side: bottom;
     border-collapse: collapse;
@@ -581,4 +573,18 @@ table tbody tr:nth-child(even) {
     position: absolute;
     left: 0;
     margin-top: -93px;
+}
+
+.input-fld{
+    outline: none;
+    border: none;
+}
+.btn-2{
+    font-size: 18px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.section-4{
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
