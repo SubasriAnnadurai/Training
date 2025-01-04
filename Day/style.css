@@ -2,15 +2,19 @@ body{
     font-family: Arial, sans-serif;
     margin: 0px;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 .body{
     position: relative;
 }
-.nav-bar-container{
+.nav-container{
     display: flex;
     justify-content: space-between;
     align-items: center
 }
-.nav-bar{
+.nav{
     background-color: #3D405B;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -23,7 +27,7 @@ body{
     display: flex;
     flex-direction: row;
 }
-.nav-menu{
+.nav-item{
     margin: 10px;
     color: white;
     text-decoration: none;
@@ -41,18 +45,18 @@ body{
     height: 48px;
     filter: brightness(0) invert(1);
 }
-.brand-log{
+.logo-b{
     display: flex;
     color:white;
     align-items: center;
 }
-.br-name{
+.title{
     white-space: pre-line;
     margin-left: 2px;
     font-size: 20px;
     font-weight: bold;
 }
-.br-name-sm{
+.title-2{
     font-size: 12px;
 }
 
@@ -77,7 +81,7 @@ body{
 }
 
 .section-1{
-    background-image: url(bg-img1.jpg);
+    background-image: url(./img/background-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -168,11 +172,10 @@ p{
     align-items: center;
 }
 .section-3{
-    background-image: url(s-3.jpg);
+    background-image: url(./img/background-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* position: relative; */
     padding-top: 100px;
     padding-bottom: 100px;
     min-height: 250px;
@@ -222,7 +225,6 @@ table{
     border-collapse: collapse;
 }
 table thead{
-    /* background-color: #3D405B; */
     padding: 10px;
     color: white;
 }
