@@ -1,0 +1,252 @@
+body{
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 22px;
+}
+#sec-1{
+    background-image:url(./Images/bg-1.jpg); 
+    border-radius: 0 0 150px 150px;  
+    padding: 0;
+    margin: 0;
+    padding-bottom: 100px;
+}
+#logo{
+    width: 150px;
+    height: auto;
+    margin-left: 100px;
+}
+.list-items{
+    list-style: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 25px;
+}
+.list-items:hover{
+    background-color: #1b7ffa;
+}
+#list{
+    display: flex;
+    gap: 70px;
+    margin-right: 130px;
+    font-size: 15px;
+    color: white;
+}
+#signin:hover{
+    background-color:#ee626b;
+}
+#home-left{
+    color: white;
+    margin-top: 70px;
+}
+#home-h6{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin: 0;
+    padding: 0;
+}
+#home-h2{
+    font-size: 48px;
+    color: white;
+    margin: 20px 0 50px 0;
+}
+#home{
+    display: flex;
+    padding: 100px;
+    margin-top: 40px;
+}
+#home-p{
+    line-height: 30px;
+    font-size: 14px;
+    width:70%;
+}
+#home-right img{
+    border-radius: 25px;
+}
+#home-left1{
+    background-color: white;
+    width: fit-content;
+    padding-left: 10px;
+    border-radius: 25px;
+    margin-top: 90px;
+}
+#home-left1 input{
+    font-size: 15px;
+    border: none;
+    padding: 18px 13px 18px 13px;
+    width: 300px;
+    border-radius: 25px;
+}
+#home-left1 button{
+    font-size: 14px;
+    border: none;
+    padding: 19px 17px 18px 17px;
+    background-color: #ee626b;
+    margin: 0;
+    border-radius: 25px;
+    color: white;
+}
+#home-left1 input:focus{
+    border: none;
+    outline: none;
+}
+#home-left1 button:hover{
+    background-color: #0071f8;
+}
+#home-right div{
+    position: absolute;
+    color: white;
+    z-index: 100;
+}
+#home-right-div1{
+    margin-left:325px;
+    font-size: 20px;
+    font-weight:bolder;
+    top: 20px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+    background-color:#008af8;
+}
+#home-right-div2{
+    background-color:#ee626b;
+    padding: 30px 17px 30px 17px;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius:50%;
+    bottom:-20px;
+    left: -30px;
+}
+#home-right{
+    position: relative;
+}
+.sec2-cards{
+    background-color:white;
+    padding: 30px 50px 30px 50px;
+    width: 200px;
+    border-radius: 25px;
+    margin-right: 50px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+
+}
+.sec2-cards div{
+    background-color: #0071f8;
+    padding: 20px 22px 20px 22px;
+    border-radius: 50%;
+    width: fit-content;
+    margin-left: 60px;
+}
+.sec2-cards div:hover{
+    background-color:#ee626b;
+}
+#sec-2{
+    display: flex;
+    justify-content: space-around;
+    margin-left:80px;
+    margin-right: 50px;
+    position: absolute;
+    bottom: -120px;
+}
+.sec2-cards h3{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 17px;
+    font-weight: 700;
+}
+#sec-3{
+    padding: 80px;
+}
+#sec-3-h6{
+    display: flex;
+    font-size: 15px;
+    color:#ee626b;
+    font-weight: 700;
+    margin: 0;
+}
+#sec-3-h2{
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 30px;
+    /* margin-top: 20px; */
+}
+#section12{
+    position: relative;
+    margin-bottom: 130px;
+}
+#sec3-1{
+    display: flex;
+    justify-content: space-between;
+}
+#sec-3-right button{
+    margin-top: 40px;
+    background-color:#ee626b;
+    padding: 17px 27px 17px 27px;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-weight: 700;
+}
+.card-1_1{
+    position: relative;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+.card-1_1 div{
+    position: absolute;
+    background-color:#0071f8;
+    top: 15px;
+    right: 20px;
+    border-radius: 10px;
+    padding: 8px 15px 6px 15px;
+}
+.card-1_1 div h3{
+    margin: 5px;
+    color: white;
+}
+.card-1_1 img{
+    border-radius: 20px;
+}
+.card-1_2 div h6{
+    color:#7a7a7a;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 5;
+    letter-spacing: 0.5px;
+}
+.card{
+    background-color: #eeeeee;
+    width: fit-content;
+    border-radius: 20px;
+}
+.card-1_2{
+    display: flex;
+    justify-content: space-between;
+}
+.card-1_2 div{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.card-1_2 div h2{
+    margin-top:10px;
+    font-size: 19px;
+}
+.card-1_2 div i{
+    padding: 10px 12px 10px 12px;
+    background-color: #ee626b;
+    margin-right: 20px;
+    border-radius: 50%;
+    color: white;
+    margin-top: 10px;
+}
+.card:hover .card-1_2 div h2{
+    color:#0071f8;
+}
+.card:hover .card-1_2 div i{
+    background-color:#0071f8;
+}
+#sec3-2{
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-around;
+}
