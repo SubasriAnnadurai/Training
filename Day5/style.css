@@ -282,6 +282,8 @@ table tbody tr:nth-child(even) {
     font-size: 17px;
     margin-left: 13px;
     width: 91%;
+    border: none;
+    outline: none;
 }
 .form-txt-area{
     height: 80px;
@@ -293,6 +295,10 @@ table tbody tr:nth-child(even) {
     background-color: white;
     border-radius: 10px;
     margin-bottom: 18px;
+    color:grey;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
 }
 .btn-big{
     width: 100%;
