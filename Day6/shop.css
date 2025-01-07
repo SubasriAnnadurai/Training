@@ -1,0 +1,160 @@
+body{
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 22px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#logo{
+    width: 150px;
+    height: auto;
+    margin-left: 100px;
+}
+.list-items{
+    list-style: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 25px;
+}
+.list-items:hover{
+    background-color: #1b7ffa;
+}
+#list{
+    display: flex;
+    gap: 25px;
+    margin-right: 130px;
+    font-size: 15px;
+    color: white;
+}
+#section1{
+    background-image:url(./Images/bg-1.jpg); 
+    border-radius: 0 0 150px 150px;  
+    padding: 0;
+    margin: 0;
+    padding-bottom: 100px;
+}
+#section1 div{
+    margin-top: 130px;
+    width: 100%;
+    text-align: center;
+}
+#section1 div h1{
+    font-size: 48px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+#section1 div h4{
+    font-size: 17px;
+    color: white;
+    font-weight: 100;
+}
+#submit button{
+    background-color:#eee;
+    color: black;
+    padding: 10px 22px 10px 22px;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 25px;
+    border: none;
+}
+#section2{
+    padding: 40px;
+    margin-top: 60px;
+}
+#submit{
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+}
+.card{
+    background-color: #eeeeee;
+    width: fit-content;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.card-1_1{
+    position: relative;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+.card-1_1 div{
+    position: absolute;
+    background-color:#0071f8;
+    top: 15px;
+    right: 20px;
+    border-radius: 10px;
+    padding: 8px 15px 6px 15px;
+}
+.card-1_1 div h3{
+    margin: 5px;
+    color: white;
+}
+.card-1_1 img{
+    border-radius: 20px;
+}
+.card-1_2 div h6{
+    color:#7a7a7a;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 5;
+    letter-spacing: 0.5px;
+}
+.card-1_2{
+    display: flex;
+    justify-content: space-between;
+}
+.card-1_2 div{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.card-1_2 div h2{
+    margin-top:10px;
+    font-size: 19px;
+}
+.card-1_2 div i{
+    padding: 10px 12px 10px 12px;
+    background-color: #ee626b;
+    margin-right: 20px;
+    border-radius: 50%;
+    color: white;
+    margin-top: 10px;
+}
+.card:hover .card-1_2 div h2{
+    color:#0071f8;
+}
+.card:hover .card-1_2 div i{
+    background-color:#0071f8;
+}
+.shopCards{
+    margin-top: 23px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 50px;
+}
+.block{
+    display: flex;
+}
+.none{
+    display: none;
+}
+footer{
+    background-image: url(./Images/bg-1.jpg);
+    border-radius: 150px 150px 0 0;
+    margin-top: 200px;
+}
+footer h4{
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
