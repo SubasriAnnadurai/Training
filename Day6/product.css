@@ -1,0 +1,116 @@
+body{
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 22px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#logo{
+    width: 150px;
+    height: auto;
+    margin-left: 100px;
+}
+.list-items{
+    list-style: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 25px;
+}
+.list-items:hover{
+    background-color: #1b7ffa;
+}
+#list{
+    display: flex;
+    gap: 25px;
+    margin-right: 130px;
+    font-size: 15px;
+    color: white;
+}
+#section1{
+    background-image:url(./Images/bg-1.jpg); 
+    border-radius: 0 0 150px 150px;  
+    padding: 0;
+    margin: 0;
+    padding-bottom: 100px;
+}
+#section1 div{
+    margin-top: 130px;
+    width: 100%;
+    text-align: center;
+}
+#section1 div h1{
+    font-size: 48px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+#section1 div h4{
+    font-size: 17px;
+    color: white;
+    font-weight: 100;
+}
+#section2{
+    padding: 50px;
+    display: flex;
+}
+#image{
+    width: 100%;
+    border-radius: 25px;
+}
+#cart{
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    background-color: #ee626b;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0px 25px;
+    border: none;
+    border-radius: 25px;
+}
+#content i{
+    margin-right: 10px;
+}
+#content input{
+    width: 80px;
+    height: 50px;
+    background-color: #f7f7f7;
+    border: 1px solid #e7e7e7;
+    border-radius: 25px;
+    text-align: center;
+    float: left;
+    margin-right: 15px;
+}
+#content h3{
+    font-size: 27px;
+    font-weight: 700;
+    color: #0071f8;
+}
+#content h5{
+    font-style: normal;
+    color: #c8c8c8;
+    font-size: 17px;
+    text-decoration: line-through;
+    font-weight: 500;
+    margin-right: 5px;
+}
+#content p{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.words{
+    font-size: 14px;
+    color: #0071f8;
+    font-weight: 120;
+}
+#content h4{
+    width: 120px;
+    display: inline;
+    color: #aaa;
+    font-weight: 120;
+}

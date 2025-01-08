@@ -173,3 +173,18 @@ document.getElementById("checkLetter").addEventListener("click",()=>{
     console.log(count);
     document.getElementById("output15").innerText = "The letter frequency count is : "+ count;
 })
+
+let word = "subasri";
+let sum = 0;
+for(let i=0;i<word.length;i++)
+{
+    sum += word.charCodeAt(i);
+}
+console.log(sum);
+
+document.getElementById("validate").addEventListener("click",()=>{
+    let case1 = document.getElementById("case1").value;
+    let case2 = document.getElementById("case2").value;
+    case1 = case1.charAt(0).toUpperCase();
+    case2 = case2.charAt(0).toUpperCase();
+})
