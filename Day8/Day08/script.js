@@ -159,7 +159,7 @@ document.getElementById("removeSpaces").addEventListener("click",()=>{
     document.getElementById("remove").innerText = "The final sentence : "+remove;
 })
 
-document.getElementById("check").addEventListener("click",()=>{
+document.getElementById("checkLetter").addEventListener("click",()=>{
     let word = document.getElementById("t15-num1").value;
     let character = document.getElementById("t15-num2").value;
     let count = 0;
@@ -171,5 +171,5 @@ document.getElementById("check").addEventListener("click",()=>{
         }
     }
     console.log(count);
-    document.getElementById("output").innerText = "The letter frequency count is : "+ count;
+    document.getElementById("output15").innerText = "The letter frequency count is : "+ count;
 })
