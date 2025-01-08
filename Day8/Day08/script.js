@@ -123,3 +123,53 @@ document.getElementById("checkPalindrome").addEventListener("click",()=>{
     }
     document.getElementById("check").innerText = "The palindrome : "+check;
 })
+
+document.getElementById("extractInitial").addEventListener("click",()=>{
+    let name = document.getElementById("t11-num1").value;
+    let string = name.split(" ");
+    console.log(string);
+    let extract = "";
+    for(let i=0;i<string.length;i++)
+    {
+        extract += string[i].charAt(0)+" . ";
+    }
+    document.getElementById("extract").innerText = "The Initials are : "+extract;
+})
+
+
+document.getElementById("replaceWord").addEventListener("click",()=>{
+    let sentence = document.getElementById("t12-num1").value;
+    let string1 = document.getElementById("string1").value;
+    let string2 = document.getElementById("string2").value;
+    let replace = sentence.replace(string1,string2);
+    document.getElementById("replace").innerText = "The final sentence : "+replace;
+})
+
+
+document.getElementById("splitSentence").addEventListener("click",()=>{
+    let sentencee = document.getElementById("t13-num1").value;
+    let array = sentencee.split(" ");
+    document.getElementById("split").innerText = "The final array : "+JSON.stringify(array);
+})
+
+
+document.getElementById("removeSpaces").addEventListener("click",()=>{
+    let sentenceee = document.getElementById("t14-num1").value;
+    let remove = sentenceee.replaceAll(" ","");
+    document.getElementById("remove").innerText = "The final sentence : "+remove;
+})
+
+document.getElementById("check").addEventListener("click",()=>{
+    let word = document.getElementById("t15-num1").value;
+    let character = document.getElementById("t15-num2").value;
+    let count = 0;
+    for(let i=0;i<word.length;i++)
+    {
+        if(word.charAt(i) == character)
+        {
+            count++;
+        }
+    }
+    console.log(count);
+    document.getElementById("output").innerText = "The letter frequency count is : "+ count;
+})
