@@ -1,0 +1,14 @@
+td,
+th,
+table {
+  padding: 10px;
+  border: 2px solid black;
+  border-collapse: collapse;
+  text-align: left;
+}
+thead {
+  background-color: rgb(225, 224, 224);
+}
+td{
+    width: 150px;
+}
