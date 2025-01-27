@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Event Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Event Manager</h1>
+    </header>
+    <div class="container">
+        <div class="event-form">
+            <input type="text" id="event-title" placeholder="Event Title">
+            <input type="date" id="event-date">
+            <button onclick="addEvent()">Add Event</button>
+        </div>
+        <div class="filter-buttons">
+            <button onclick="filterEvents('all')">All Events</button>
+            <button onclick="filterEvents('upcoming')">Upcoming Events</button>
+            <button onclick="filterEvents('past')">Past Events</button>
+        </div>
+        <ul id="event-list" class="event-list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container" id="loginPage">
+    <h1 class="main-title">JavaScript Mastery Quiz</h1>
+    <p>Show your JS skills and climb the leaderboard!</p>
+    <div class="form-group">
+      <label for="username">Full Name</label>
+      <input type="text" id="username" placeholder="Enter your name" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email Address</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+    </div>
+    <button class="btn" onclick="startQuiz()">Start the Quiz</button>
+  </div>
+
+  <div class="container hidden" id="quizPage">
+    <h2>Quiz Time!</h2>
+    <div id="questionContainer"></div>
+    <button class="btn" onclick="submitQuiz()">Submit Quiz</button>
+  </div>
+
+  <div class="container hidden" id="resultPage">
+    <h2>Your Quiz Results</h2>
+    <div id="resultContainer"></div>
+    <button class="btn" onclick="viewDashboard()">Leaderboard</button>
+  </div>
+
+  <div class="container hidden" id="dashboardPage">
+    <h2>Leaderboard</h2>
+    <div class="dashboard">
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Score</th>
+            <th>Rank</th>
+          </tr>
+        </thead>
+        <tbody id="dashboardContainer"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

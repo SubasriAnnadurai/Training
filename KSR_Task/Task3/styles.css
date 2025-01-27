@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #6200ea;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+.event-form {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.event-form input, .event-form button {
+    flex: 1 1 100%;
+    max-width: calc(50% - 10px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.event-form button {
+    background: #6200ea;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.event-form button:hover {
+    background: #3700b3;
+}
+.filter-buttons {
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.filter-buttons button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #03dac6;
+    color: white;
+    cursor: pointer;
+}
+.filter-buttons button:hover {
+    background: #018786;
+}
+.event-list {
+    list-style: none;
+    padding: 0;
+}
+.event-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.event-item span {
+    flex: 1;
+    margin-right: 10px;
+}
+.event-item button {
+    background: #b00020;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.event-item button:hover {
+    background: #750012;
+}
+@media (max-width: 600px) {
+    .event-form input, .event-form button {
+        max-width: 100%;
+    }
+    .filter-buttons button {
+        flex: 1 1 100%;
+    }
+}
