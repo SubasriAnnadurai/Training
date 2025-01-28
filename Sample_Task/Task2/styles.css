@@ -2,46 +2,45 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f5f5f5; /* Light neutral gray */
+  background-color: #f5f5f5; 
 }
-
 header {
   text-align: center;
-  background-color: #2a4365; /* Deep navy blue */
-  color: #ffffff; /* White text for contrast */
+  background-color: #2a4365;
+  color: #ffffff; 
   padding: 10px 0;
 }
 
 nav {
   text-align: center;
   padding: 15px;
-  background-color: transparent; /* Keeps it clean */
+  background-color: transparent; 
 }
 
 nav a {
   display: inline-block;
   margin: 0 10px;
   padding: 10px 20px;
-  color: #2a4365; /* Deep navy blue for text */
+  color: #2a4365;
   text-decoration: none;
   font-weight: bold;
   font-size: 1rem;
-  background-color: #e2e8f0; /* Light gray-blue for buttons */
-  border: 2px solid #cbd5e0; /* Slightly darker border */
-  border-radius: 25px; /* Rounded buttons */
-  transition: all 0.3s ease; /* Smooth transition effects */
-  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  background-color: #e2e8f0; 
+  border: 2px solid #cbd5e0; 
+  border-radius: 25px;
+  transition: all 0.3s ease; 
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1); 
 }
 
 nav a:hover {
-  background-color: #cbd5e0; /* Medium gray-blue for hover */
-  color: #1a365d; /* Darker navy for hover text */
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+  background-color: #cbd5e0; 
+  color: #1a365d; 
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2); 
 }
 
 nav a:active {
-  background-color: #a0aec0; /* Darker gray-blue for active state */
-  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.2); /* Inset shadow for pressed effect */
+  background-color: #a0aec0; 
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.2); 
 }
 
 main {
@@ -56,12 +55,12 @@ main {
 }
 
 .car-card {
-  border: 1px solid #d1d5db; /* Neutral gray border */
+  border: 1px solid #d1d5db; 
   border-radius: 10px;
   padding: 15px;
   text-align: center;
   width: 300px;
-  background: #ffffff; /* White for a clean card background */
+  background: #ffffff; 
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -74,8 +73,8 @@ main {
 
 button {
   padding: 10px;
-  background-color: #3182ce; /* Blue for buttons */
-  color: #ffffff; /* White text for contrast */
+  background-color: #3182ce; 
+  color: #ffffff; 
   border: none;
   cursor: pointer;
   margin-top: 10px;
@@ -85,5 +84,5 @@ button {
 }
 
 button:hover {
-  background-color: #2b6cb0; /* Darker blue for hover effect */
+  background-color: #2b6cb0; 
 }

@@ -1,7 +1,4 @@
-// Array to store events
 const events = [];
-
-// Add an event
 function addEvent() {
     const title = document.getElementById('event-title').value.trim();
     const date = document.getElementById('event-date').value;
@@ -19,8 +16,6 @@ function addEvent() {
         alert('Please fill out all fields with valid values.');
     }
 }
-
-// Edit an event
 function editEvent(index) {
     const event = events[index];
     const newTitle = prompt('Edit Event Title:', event.title);
@@ -38,14 +33,10 @@ function editEvent(index) {
         }
     }
 }
-
-// Delete an event
 function deleteEvent(index) {
     events.splice(index, 1);
     renderEvents();
 }
-
-// Filter events by status
 function filterEvents(filter) {
     let filteredEvents = events;
     if (filter === 'upcoming') {
@@ -55,11 +46,9 @@ function filterEvents(filter) {
     }
     renderEvents(filteredEvents);
 }
-
-// Render events to the page
 function renderEvents(filtered = events) {
     const eventList = document.getElementById('event-list');
-    eventList.innerHTML = ''; // Clear existing list
+    eventList.innerHTML = ''; 
 
     filtered.forEach((event, index) => {
         const eventItem = document.createElement('li');
@@ -73,8 +62,6 @@ function renderEvents(filtered = events) {
         `;
         eventList.appendChild(eventItem);
     });
-
-    // Attach event listeners to Edit and Delete buttons
     document.querySelectorAll('.edit-btn').forEach(button => {
         button.addEventListener('click', (e) => {
             const index = e.target.dataset.index;
